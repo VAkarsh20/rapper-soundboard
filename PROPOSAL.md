@@ -10,16 +10,16 @@ I wanted to create this application because it allows the user to listen to and 
 Moreover, the soundboard give me experience making these types of applications as I am interested in creating soundboards for different types of entertainment.
 ## Resources
 ### The following are different links and resources I will suspect I will need to use
-For ofSoundPlayer:
-https://openframeworks.cc/learning/04_sound/play_a_sound/
-For General Documentation and learning ofSound:
-https://openframeworks.cc/ofBook/chapters/sound.html
-For ofxGui:
-http://openframeworks.cc/documentation/ofxGui/
-For ofxFft:
-https://github.com/paulreimer/ofxAudioFeatures
+For ofSoundPlayer:<br />
+https://openframeworks.cc/learning/04_sound/play_a_sound/ <br />
+For General Documentation and learning ofSound: <br />
+https://openframeworks.cc/ofBook/chapters/sound.html <br />
+For ofxGui: <br />
+http://openframeworks.cc/documentation/ofxGui/ <br />
+For ofxFft: <br />
+https://github.com/paulreimer/ofxAudioFeatures <br />
 ## Libraries
-ofSoundPlayer - for playing the sound
-ofxGui - for creating the window to see the application
-ofxFft - if I want to include a visualizer
-Many More to Come!
+ofSoundPlayer - for playing the sound <br />
+ofxGui - for creating the window to see the application <br />
+ofxFft - if I want to include a visualizer <br />
+Many More to Come! <br />
