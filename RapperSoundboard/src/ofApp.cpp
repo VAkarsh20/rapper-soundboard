@@ -17,30 +17,46 @@ void ofApp::draw(){
 
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
-	if (key == 'p') {
-		mySound.load("Travis_Scott_Its_Lit_Old.mp3");
-		mySound.play();
-	}
-	else if (key == 'q') {
-		mySound.load("Travis_Scott_Alright.mp3");
-		mySound.play();
+	
+	/*
+	if (key == 'q') {
+		travis_scott.GetAlright().play();
 	}
 	else if (key == 'w') {
-		mySound.load("Travis_Scott_Its_Lit.mp3");
-		mySound.play();
+		travis_scott.GetStraightUp().play();
 	}
 	else if (key == 'e') {
-		mySound.load("Travis_Scott_La_Flame.mp3");
-		mySound.play();
+		travis_scott.GetItsLit().play();
 	}
 	else if (key == 'r') {
-		mySound.load("Travis_Scott_Straight_Up.mp3");
-		mySound.play();
+		travis_scott.GetLaFlame().play();
 	}
 	else if (key == 't') {
-		mySound.load("Travis_Scott_Yeah.mp3");
-		mySound.play();
+		travis_scott.GetYeah().play();
 	}
+	else if (key == 'c') {
+		ofSoundStopAll();
+	}*/
+
+	if (key == 'q') {
+		migos.GetOffset().play();
+	}
+	else if (key == 'w') {
+		migos.GetDab().play();
+	}
+	else if (key == 'e') {
+		migos.GetHey().play();
+	}
+	else if (key == 'r') {
+		travis_scott.GetLaFlame().play();
+	}
+	else if (key == 't') {
+		travis_scott.GetYeah().play();
+	}
+	else if (key == 'c') {
+		ofSoundStopAll();
+	}
+	
 }
 
 //--------------------------------------------------------------

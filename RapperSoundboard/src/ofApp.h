@@ -1,10 +1,13 @@
 #pragma once
 
 #include "ofMain.h"
+#include "TravisScott.h"
+#include "Migos.h"
 
 class ofApp : public ofBaseApp{
-
-	ofSoundPlayer mySound;
+	
+	TravisScott travis_scott;
+	Migos migos;
 
 	public:
 		void setup();
