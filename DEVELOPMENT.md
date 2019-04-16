@@ -21,3 +21,4 @@
 	* Looked at ofxGui to add as a window for the application
 	* Looked at ofxFft as a music visualizer for the project
 * Wrote Proposal for the project
+## Week 2
