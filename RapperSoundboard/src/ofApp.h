@@ -3,11 +3,15 @@
 #include "ofMain.h"
 #include "TravisScott.h"
 #include "Migos.h"
+#include "LilRappers.h"
+#include "Producers.h"
 
 class ofApp : public ofBaseApp{
 	
 	TravisScott travis_scott;
 	Migos migos;
+	LilRappers lil_rappers;
+	Producers producers;
 
 	public:
 		void setup();

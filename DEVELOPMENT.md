@@ -22,3 +22,26 @@
 	* Looked at ofxFft as a music visualizer for the project
 * Wrote Proposal for the project
 ## Week 2
+* Worked on Getting Adlib Files (Majority of the Week)
+	* Created 4 different groupings for Rapper Adlibs
+		* Travis Scott
+		* Migos
+			* Offset
+			* Quavo
+			* Takeoff
+		* Lil Rappers
+			* Lil Jon
+			* Lil Uzi Vert
+			* Lil Wayne
+		* Producers
+	* Researched their most famous Adlibs through the following sites
+		* http://www.therapboard.com/
+		* https://genius.com/Rap-genius-ad-libs-explained-lyrics
+	* Extracted Adlibs and Save files
+		* Algorithm to do so
+			* Go on Youtube to Find Either Song Acapella, Soundeffect, or Full Song Version
+			* Convert the video and download to Mp3 File
+			* Isolate Vocals, Extract Adlibs, and Touch up sound through Audacity
+* Created Project with OpenFrameworks and Visual Studio
+* Created 4 different classes for the 4 groupings of Rappers above
+* Put all the adlibs in one file to test and was successful in doing so.

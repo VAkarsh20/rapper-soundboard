@@ -43,6 +43,12 @@
     <ClCompile Include="src\Migos.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="src\LilRappers.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Producers.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">
@@ -99,6 +105,12 @@
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="src\Migos.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LilRappers.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Producers.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>

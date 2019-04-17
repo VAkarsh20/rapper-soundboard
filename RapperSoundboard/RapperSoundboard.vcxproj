@@ -180,6 +180,7 @@
     <PostBuildEvent />
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\LilRappers.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\Migos.cpp" />
     <ClCompile Include="src\ofApp.cpp" />
@@ -193,9 +194,11 @@
     <ClCompile Include="..\..\..\..\addons\ofxGui\src\ofxSlider.cpp" />
     <ClCompile Include="..\..\..\..\addons\ofxGui\src\ofxSliderGroup.cpp" />
     <ClCompile Include="..\..\..\..\addons\ofxGui\src\ofxToggle.cpp" />
+    <ClCompile Include="src\Producers.cpp" />
     <ClCompile Include="src\TravisScott.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\LilRappers.h" />
     <ClInclude Include="src\Migos.h" />
     <ClInclude Include="src\ofApp.h" />
     <ClInclude Include="..\..\..\..\addons\ofxGui\src\ofxBaseGui.h" />
@@ -209,6 +212,7 @@
     <ClInclude Include="..\..\..\..\addons\ofxGui\src\ofxSlider.h" />
     <ClInclude Include="..\..\..\..\addons\ofxGui\src\ofxSliderGroup.h" />
     <ClInclude Include="..\..\..\..\addons\ofxGui\src\ofxToggle.h" />
+    <ClInclude Include="src\Producers.h" />
     <ClInclude Include="src\TravisScott.h" />
   </ItemGroup>
   <ItemGroup>
