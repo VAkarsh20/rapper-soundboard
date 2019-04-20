@@ -13,6 +13,9 @@ class ofApp : public ofBaseApp{
 	LilRappers lil_rappers;
 	Producers producers;
 
+	ofTrueTypeFont main_title_font;
+	ofTrueTypeFont main_subheader_font;
+
 	public:
 		void setup();
 		void update();
