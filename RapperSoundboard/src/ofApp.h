@@ -8,6 +8,16 @@
 
 class ofApp : public ofBaseApp{
 	
+	enum Page {
+		HOME,
+		TRAVIS_SCOTT,
+		MIGOS,
+		LIL_RAPPERS,
+		PRODUCERS
+	};
+
+	Page current_page = HOME;
+
 	TravisScott travis_scott;
 	Migos migos;
 	LilRappers lil_rappers;
@@ -15,6 +25,20 @@ class ofApp : public ofBaseApp{
 
 	ofTrueTypeFont main_title_font;
 	ofTrueTypeFont main_subheader_font;
+	ofTrueTypeFont main_travis_scott_font;
+	ofTrueTypeFont main_migos_font;
+	ofTrueTypeFont main_lil_rappers_font;
+	ofTrueTypeFont main_producers_font;
+
+	ofImage travis_scott_image;
+	ofImage migos_image;
+	ofImage lil_rappers_image;
+	ofImage producers_image;
+
+	ofTrueTypeFont main_1_font;
+	ofTrueTypeFont main_2_font;
+	ofTrueTypeFont main_3_font;
+	ofTrueTypeFont main_4_font;
 
 	public:
 		void setup();
