@@ -1,5 +1,7 @@
 #pragma once
 #include "ofMain.h"
+
+
 class LilRappers {
 	ofSoundPlayer J_ok;
 	ofSoundPlayer J_what;
@@ -10,6 +12,11 @@ class LilRappers {
 	ofSoundPlayer W_laugh;
 	ofSoundPlayer W_tunechi;
 	ofSoundPlayer W_young_mula_baby;
+
+	ofTrueTypeFont lil_rappers_title_font;
+	ofTrueTypeFont lil_rappers_subheader_font;
+
+	ofImage lil_uzi_vert_image;
 
 public:
 	LilRappers();
@@ -24,4 +31,8 @@ public:
 	ofSoundPlayer GetLilWayneLaugh();
 	ofSoundPlayer GetLilWayneTunechi();
 	ofSoundPlayer GetLilWayneYoungMulaBaby();
+
+	ofImage GetLilUziVertImage();
+
+	void DrawLilRappersPage();
 };

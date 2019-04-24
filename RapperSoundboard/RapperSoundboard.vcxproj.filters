@@ -49,6 +49,9 @@
     <ClCompile Include="src\Producers.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="src\MainPage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">
@@ -111,6 +114,9 @@
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="src\Producers.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MainPage.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>

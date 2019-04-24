@@ -11,6 +11,11 @@ class Migos {
 	ofSoundPlayer T_money;
 	ofSoundPlayer T_migo;
 
+	ofTrueTypeFont migos_title_font;
+	ofTrueTypeFont migos_subheader_font;
+
+	ofImage migos_image;
+
 public:
 	Migos();
 	~Migos();
@@ -24,5 +29,9 @@ public:
 	ofSoundPlayer GetTakeoff();
 	ofSoundPlayer GetMoney();
 	ofSoundPlayer GetMigo();
+
+	ofImage GetMigosImage();
+
+	void DrawMigosPage();
 };
 

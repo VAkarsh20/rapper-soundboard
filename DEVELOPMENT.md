@@ -45,3 +45,18 @@
 * Created Project with OpenFrameworks and Visual Studio
 * Created 4 different classes for the 4 groupings of Rappers above
 * Put all the adlibs in one file to test and was successful in doing so.
+## Week 3
+* Worked on Implementing Different Pages for the Adlib Groupings
+	* This required extensive research into how to work with the draw method
+	* Looked into ofTrueTypeFont in order to learn how to change the fonts of texts as well as the size
+		* Went into Google Fonts and picked "Righteous" as the font for the app
+		* Looked up tutorials on how to use the library and how to work with the spacing when implementing
+	* I researched which images I need to put into the app
+		* Found that Icon size images were the best because they were 250x250 and a good size to work with
+			* This would keep all of the sizes constant
+		* Attributed the images for their specific classes
+	* Made the different pages and the ability to switch pages with enums
+		* Created an enum for every page and a tracking field for the page to navigate through the different pages
+	* Made a MainPage and attributed the specific pages to their respective grouping class
+		* Drew the page once their page is called in the ofApp
+* Cleaned up some syntax and commenting issues

@@ -5,6 +5,7 @@
 #include "Migos.h"
 #include "LilRappers.h"
 #include "Producers.h"
+#include "MainPage.h"
 
 class ofApp : public ofBaseApp{
 	
@@ -23,22 +24,8 @@ class ofApp : public ofBaseApp{
 	LilRappers lil_rappers;
 	Producers producers;
 
-	ofTrueTypeFont main_title_font;
-	ofTrueTypeFont main_subheader_font;
-	ofTrueTypeFont main_travis_scott_font;
-	ofTrueTypeFont main_migos_font;
-	ofTrueTypeFont main_lil_rappers_font;
-	ofTrueTypeFont main_producers_font;
+	MainPage main_page;
 
-	ofImage travis_scott_image;
-	ofImage migos_image;
-	ofImage lil_rappers_image;
-	ofImage producers_image;
-
-	ofTrueTypeFont main_1_font;
-	ofTrueTypeFont main_2_font;
-	ofTrueTypeFont main_3_font;
-	ofTrueTypeFont main_4_font;
 
 	public:
 		void setup();

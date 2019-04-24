@@ -7,6 +7,11 @@ class TravisScott {
 	ofSoundPlayer TS_its_lit;
 	ofSoundPlayer TS_yeah;
 	ofSoundPlayer TS_la_flame;
+
+	ofTrueTypeFont travis_scott_title_font;
+	ofTrueTypeFont travis_scott_subheader_font;
+
+	ofImage travis_scott_image;
 public:
 
 	TravisScott();
@@ -17,4 +22,8 @@ public:
 	ofSoundPlayer GetItsLit();
 	ofSoundPlayer GetYeah();
 	ofSoundPlayer GetLaFlame();
+
+	ofImage GetTravisScottImage();
+
+	void DrawTravisScottPage();
 };
