@@ -15,6 +15,9 @@ class Migos {
 	ofTrueTypeFont migos_subheader_font;
 
 	ofImage migos_image;
+	ofImage migos_offset_image;
+	ofImage migos_quavo_image;
+	ofImage migos_takeoff_image;
 
 public:
 	Migos();

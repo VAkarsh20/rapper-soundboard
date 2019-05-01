@@ -70,7 +70,7 @@ void ofApp::keyPressed(int key){
 		else if (key == '0') {
 			ofSoundStopAll();
 		}
-		else if (key == 'b') {
+		else if (key == 'b' || key == 'B') {
 			current_page = HOME;
 		}
 	}
@@ -105,7 +105,7 @@ void ofApp::keyPressed(int key){
 		else if (key == '0') {
 			ofSoundStopAll();
 		}
-		else if (key == 'b') {
+		else if (key == 'b' || key == 'B') {
 			current_page = HOME;
 		}
 	}
@@ -140,7 +140,7 @@ void ofApp::keyPressed(int key){
 		else if (key == '0') {
 			ofSoundStopAll();
 		}
-		else if (key == 'b') {
+		else if (key == 'b' || key == 'B') {
 			current_page = HOME;
 		}
 	}
@@ -163,7 +163,7 @@ void ofApp::keyPressed(int key){
 		else if (key == '0') {
 			ofSoundStopAll();
 		}
-		else if (key == 'b') {
+		else if (key == 'b' || key == 'B') {
 			current_page = HOME;
 		}
 	}

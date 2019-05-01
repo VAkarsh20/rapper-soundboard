@@ -69,40 +69,40 @@ void MainPage::DrawMainPage() {
 
 	// Images
 	ofImage travis_scott_image = travis_scott.GetTravisScottImage();
-	travis_scott_image.draw(main_travis_scott_x, main_title_font.getLineHeight() + 200);
+	travis_scott_image.draw((ofGetWindowWidth() * 0.125) - (travis_scott_image.getWidth() / 2), main_title_font.getLineHeight() + 200);
 
 	ofImage migos_image = migos.GetMigosImage();
-	migos_image.draw(main_migos_x - 50, main_title_font.getLineHeight() + 200);
+	migos_image.draw((ofGetWindowWidth() * 0.375) - (migos_image.getWidth() / 2), main_title_font.getLineHeight() + 200);
 
 	ofImage lil_rappers_image = lil_rappers.GetLilUziVertImage();
-	lil_rappers_image.draw(main_lil_rappers_x, main_title_font.getLineHeight() + 200);
+	lil_rappers_image.draw((ofGetWindowWidth() * 0.625) - (lil_rappers_image.getWidth() / 2), main_title_font.getLineHeight() + 200);
 
 	ofImage producers_image = producers.GetProducersImage();
-	producers_image.draw(main_producers_x, main_title_font.getLineHeight() + 200);
+	producers_image.draw((ofGetWindowWidth() * 0.875) - (producers_image.getWidth() / 2), main_title_font.getLineHeight() + 200);
 
 	// Main 1 Header
 	float main_1_box_y = main_title_font.getLineHeight() + 500;
 	ofRectangle main_1_text_box = main_1_font.getStringBoundingBox("1", 0, main_1_box_y);
-	int main_1_x = (ofGetWindowWidth() * 0.125) - (main_1_text_box.getWidth() * 0.125);
+	int main_1_x = (ofGetWindowWidth() * 0.125) - (main_1_text_box.getWidth() / 2);
 	int main_1_y = main_title_font.getLineHeight() + 500;
 	main_1_font.drawStringAsShapes("1", main_1_x, main_1_y);
 
 	// Main 2 Header
 	float main_2_box_y = main_title_font.getLineHeight() + 500;
 	ofRectangle main_2_text_box = main_2_font.getStringBoundingBox("2", 0, main_2_box_y);
-	int main_2_x = (ofGetWindowWidth() * 0.375) - (main_2_text_box.getWidth() * 0.375);
+	int main_2_x = (ofGetWindowWidth() * 0.375) - (main_2_text_box.getWidth() / 2);
 	int main_2_y = main_title_font.getLineHeight() + 500;
 	main_2_font.drawStringAsShapes("2", main_2_x, main_2_y);
 
 	float main_3_box_y = main_title_font.getLineHeight() + 500;
 	ofRectangle main_3_text_box = main_3_font.getStringBoundingBox("3", 0, main_3_box_y);
-	int main_3_x = (ofGetWindowWidth() * 0.625) - (main_3_text_box.getWidth() * 0.625);
+	int main_3_x = (ofGetWindowWidth() * 0.625) - (main_3_text_box.getWidth() / 2);
 	int main_3_y = main_title_font.getLineHeight() + 500;
 	main_3_font.drawStringAsShapes("3", main_3_x, main_3_y);
 
 	float main_4_box_y = main_4_font.getLineHeight() + 500;
 	ofRectangle main_4_text_box = main_4_font.getStringBoundingBox("4", 0, main_4_box_y);
-	int main_4_x = (ofGetWindowWidth() * 0.875) - (main_4_text_box.getWidth() * 0.875);
+	int main_4_x = (ofGetWindowWidth() * 0.875) - (main_4_text_box.getWidth() / 2);
 	int main_4_y = main_title_font.getLineHeight() + 500;
 	main_4_font.drawStringAsShapes("4", main_4_x, main_4_y);
 }
