@@ -14,6 +14,18 @@ class Producers
 
 	ofImage producers_image;
 
+	ofTrueTypeFont producers_london_on_da_track_title_font;
+	ofTrueTypeFont producers_metro_boomin_title_font;
+	ofTrueTypeFont producers_mike_will_madeit_title_font;
+	ofTrueTypeFont producers_murda_beatz_title_font;
+	ofTrueTypeFont producers_pierre_bourne_title_font;
+
+	ofTrueTypeFont producers_1_title_font;
+	ofTrueTypeFont producers_2_title_font;
+	ofTrueTypeFont producers_3_title_font;
+	ofTrueTypeFont producers_4_title_font;
+	ofTrueTypeFont producers_5_title_font;
+
 public:
 	Producers();
 	~Producers();

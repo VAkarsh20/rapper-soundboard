@@ -12,6 +12,20 @@ class TravisScott {
 	ofTrueTypeFont travis_scott_subheader_font;
 
 	ofImage travis_scott_image;
+
+	ofTrueTypeFont travis_scott_alright_title_font;
+	ofTrueTypeFont travis_scott_straight_up_title_font;
+	ofTrueTypeFont travis_scott_its_lit_title_font;
+	ofTrueTypeFont travis_scott_la_flame_title_font;
+	ofTrueTypeFont travis_scott_yeah_title_font;
+
+	ofTrueTypeFont travis_scott_1_title_font;
+	ofTrueTypeFont travis_scott_2_title_font;
+	ofTrueTypeFont travis_scott_3_title_font;
+	ofTrueTypeFont travis_scott_4_title_font;
+	ofTrueTypeFont travis_scott_5_title_font;
+
+
 public:
 
 	TravisScott();
