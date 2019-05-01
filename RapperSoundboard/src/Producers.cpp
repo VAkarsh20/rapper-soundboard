@@ -72,7 +72,9 @@ void Producers::DrawProducersPage() {
 	int producers_subheader_y = producers_title_font.getLineHeight() + 50;
 	producers_subheader_font.drawStringAsShapes("Press the Number Key of the Producer Tag you want to Use", producers_subheader_x, producers_subheader_y);
 
+
 	producers_image.draw((ofGetWindowWidth() / 2) - (producers_image.getWidth() / 2), producers_title_font.getLineHeight() + 80);
+
 
 	float producers_london_on_da_track_title_box_y = producers_title_font.getLineHeight() + 350;
 	ofRectangle producers_london_on_da_track_title_text_box = producers_london_on_da_track_title_font.getStringBoundingBox("London on da Track", 0, producers_london_on_da_track_title_box_y);
@@ -82,57 +84,58 @@ void Producers::DrawProducersPage() {
 
 	float producers_metro_boomin_title_box_y = producers_title_font.getLineHeight() + 350;
 	ofRectangle producers_metro_boomin_title_text_box = producers_metro_boomin_title_font.getStringBoundingBox("Metro Boomin", 0, producers_metro_boomin_title_box_y);
-	int travis_scott_straight_up_title_x = (ofGetWindowWidth() * 0.50) - (travis_scott_straight_up_title_text_box.getWidth() / 2);
-	int travis_scott_straight_up_title_y = producers_title_font.getLineHeight() + 350;
-	travis_scott_straight_up_title_font.drawStringAsShapes("Straight Up", travis_scott_straight_up_title_x, travis_scott_straight_up_title_y);
+	int producers_metro_boomin_title_x = (ofGetWindowWidth() * 0.50) - (producers_metro_boomin_title_text_box.getWidth() / 2);
+	int producers_metro_boomin_title_y = producers_title_font.getLineHeight() + 350;
+	producers_metro_boomin_title_font.drawStringAsShapes("Metro Boomin", producers_metro_boomin_title_x, producers_metro_boomin_title_y);
 
-	float travis_scott_its_lit_title_box_y = producers_title_font.getLineHeight() + 350;
-	ofRectangle travis_scott_its_lit_title_text_box = travis_scott_its_lit_title_font.getStringBoundingBox("It's Lit", 0, travis_scott_its_lit_title_box_y);
-	int travis_scott_its_lit_title_x = (ofGetWindowWidth() * 0.75) - (travis_scott_its_lit_title_text_box.getWidth() / 2);
-	int travis_scott_its_lit_title_y = producers_title_font.getLineHeight() + 350;
-	travis_scott_its_lit_title_font.drawStringAsShapes("It's Lit", travis_scott_its_lit_title_x, travis_scott_its_lit_title_y);
+	float producers_mike_will_madeit_title_box_y = producers_title_font.getLineHeight() + 350;
+	ofRectangle producers_mike_will_madeit_title_text_box = producers_mike_will_madeit_title_font.getStringBoundingBox("Mike WiLL Made-It", 0, producers_mike_will_madeit_title_box_y);
+	int producers_mike_will_madeit_title_x = (ofGetWindowWidth() * 0.75) - (producers_mike_will_madeit_title_text_box.getWidth() / 2);
+	int producers_mike_will_madeit_title_y = producers_title_font.getLineHeight() + 350;
+	producers_mike_will_madeit_title_font.drawStringAsShapes("Mike WiLL Made-It", producers_mike_will_madeit_title_x, producers_mike_will_madeit_title_y);
 
-	float travis_scott_la_flame_title_box_y = producers_title_font.getLineHeight() + 450;
-	ofRectangle travis_scott_la_flame_title_text_box = travis_scott_la_flame_title_font.getStringBoundingBox("La Flame", 0, travis_scott_la_flame_title_box_y);
-	int travis_scott_la_flame_title_x = (ofGetWindowWidth() * 0.25) - (travis_scott_la_flame_title_text_box.getWidth() / 2);
-	int travis_scott_la_flame_title_y = producers_title_font.getLineHeight() + 450;
-	travis_scott_la_flame_title_font.drawStringAsShapes("La Flame", travis_scott_la_flame_title_x, travis_scott_la_flame_title_y);
+	float producers_murda_beatz_title_box_y = producers_title_font.getLineHeight() + 450;
+	ofRectangle producers_murda_beatz_title_text_box = producers_murda_beatz_title_font.getStringBoundingBox("Murda Beatz", 0, producers_murda_beatz_title_box_y);
+	int producers_murda_beatz_title_x = (ofGetWindowWidth() * 0.25) - (producers_murda_beatz_title_text_box.getWidth() / 2);
+	int producers_murda_beatz_title_y = producers_title_font.getLineHeight() + 450;
+	producers_murda_beatz_title_font.drawStringAsShapes("Murda Beatz", producers_murda_beatz_title_x, producers_murda_beatz_title_y);
 
-	float travis_scott_yeah_title_box_y = producers_title_font.getLineHeight() + 450;
-	ofRectangle travis_scott_yeah_title_text_box = travis_scott_yeah_title_font.getStringBoundingBox("Yeah", 0, travis_scott_yeah_title_box_y);
-	int travis_scott_yeah_title_x = (ofGetWindowWidth() * 0.75) - (travis_scott_yeah_title_text_box.getWidth() / 2);
-	int travis_scott_yeah_title_y = producers_title_font.getLineHeight() + 450;
-	travis_scott_yeah_title_font.drawStringAsShapes("Yeah", travis_scott_yeah_title_x, travis_scott_yeah_title_y);
+	float producers_pierre_bourne_title_box_y = producers_title_font.getLineHeight() + 450;
+	ofRectangle producers_pierre_bourne_title_text_box = producers_pierre_bourne_title_font.getStringBoundingBox("Pi'erre Bourne", 0, producers_pierre_bourne_title_box_y);
+	int producers_pierre_bourne_title_x = (ofGetWindowWidth() * 0.75) - (producers_pierre_bourne_title_text_box.getWidth() / 2);
+	int producers_pierre_bourne_title_y = producers_title_font.getLineHeight() + 450;
+	producers_pierre_bourne_title_font.drawStringAsShapes("Pi'erre Bourne", producers_pierre_bourne_title_x, producers_pierre_bourne_title_y);
 
 
-	float travis_scott_1_title_box_y = producers_title_font.getLineHeight() + 400;
-	ofRectangle travis_scott_1_title_text_box = travis_scott_1_title_font.getStringBoundingBox("1", 0, travis_scott_1_title_box_y);
-	int travis_scott_1_title_x = (ofGetWindowWidth() * 0.25) - (travis_scott_1_title_text_box.getWidth() / 2);
-	int travis_scott_1_title_y = producers_title_font.getLineHeight() + 400;
-	travis_scott_1_title_font.drawStringAsShapes("1", travis_scott_1_title_x, travis_scott_1_title_y);
+	float producers_1_title_box_y = producers_title_font.getLineHeight() + 400;
+	ofRectangle producers_1_title_text_box = producers_1_title_font.getStringBoundingBox("1", 0, producers_1_title_box_y);
+	int producers_1_title_x = (ofGetWindowWidth() * 0.25) - (producers_1_title_text_box.getWidth() / 2);
+	int producers_1_title_y = producers_title_font.getLineHeight() + 400;
+	producers_1_title_font.drawStringAsShapes("1", producers_1_title_x, producers_1_title_y);
 
-	float travis_scott_2_title_box_y = producers_title_font.getLineHeight() + 400;
-	ofRectangle travis_scott_2_title_text_box = travis_scott_2_title_font.getStringBoundingBox("2", 0, travis_scott_2_title_box_y);
-	int travis_scott_2_title_x = (ofGetWindowWidth() * 0.50) - (travis_scott_2_title_text_box.getWidth() / 2);
-	int travis_scott_2_title_y = producers_title_font.getLineHeight() + 400;
-	travis_scott_2_title_font.drawStringAsShapes("2", travis_scott_2_title_x, travis_scott_2_title_y);
+	float producers_2_title_box_y = producers_title_font.getLineHeight() + 400;
+	ofRectangle producers_2_title_text_box = producers_2_title_font.getStringBoundingBox("2", 0, producers_2_title_box_y);
+	int producers_2_title_x = (ofGetWindowWidth() * 0.50) - (producers_2_title_text_box.getWidth() / 2);
+	int producers_2_title_y = producers_title_font.getLineHeight() + 400;
+	producers_2_title_font.drawStringAsShapes("2", producers_2_title_x, producers_2_title_y);
 
-	float travis_scott_3_title_box_y = producers_title_font.getLineHeight() + 400;
-	ofRectangle travis_scott_3_title_text_box = travis_scott_3_title_font.getStringBoundingBox("3", 0, travis_scott_3_title_box_y);
-	int travis_scott_3_title_x = (ofGetWindowWidth() * 0.75) - (travis_scott_3_title_text_box.getWidth() / 2);
-	int travis_scott_3_title_y = producers_title_font.getLineHeight() + 400;
-	travis_scott_3_title_font.drawStringAsShapes("3", travis_scott_3_title_x, travis_scott_3_title_y);
+	float producers_3_title_box_y = producers_title_font.getLineHeight() + 400;
+	ofRectangle producers_3_title_text_box = producers_3_title_font.getStringBoundingBox("3", 0, producers_3_title_box_y);
+	int producers_3_title_x = (ofGetWindowWidth() * 0.75) - (producers_3_title_text_box.getWidth() / 2);
+	int producers_3_title_y = producers_title_font.getLineHeight() + 400;
+	producers_3_title_font.drawStringAsShapes("3", producers_3_title_x, producers_3_title_y);
 
-	float travis_scott_4_title_box_y = producers_title_font.getLineHeight() + 500;
-	ofRectangle travis_scott_4_title_text_box = travis_scott_4_title_font.getStringBoundingBox("4", 0, travis_scott_4_title_box_y);
-	int travis_scott_4_title_x = (ofGetWindowWidth() * 0.25) - (travis_scott_4_title_text_box.getWidth() / 2);
-	int travis_scott_4_title_y = producers_title_font.getLineHeight() + 500;
-	travis_scott_4_title_font.drawStringAsShapes("4", travis_scott_4_title_x, travis_scott_4_title_y);
+	float producers_4_title_box_y = producers_title_font.getLineHeight() + 500;
+	ofRectangle producers_4_title_text_box = producers_4_title_font.getStringBoundingBox("4", 0, producers_4_title_box_y);
+	int producers_4_title_x = (ofGetWindowWidth() * 0.25) - (producers_4_title_text_box.getWidth() / 2);
+	int producers_4_title_y = producers_title_font.getLineHeight() + 500;
+	producers_4_title_font.drawStringAsShapes("4", producers_4_title_x, producers_4_title_y);
 
-	float travis_scott_5_title_box_y = producers_title_font.getLineHeight() + 500;
-	ofRectangle travis_scott_5_title_text_box = travis_scott_5_title_font.getStringBoundingBox("5", 0, travis_scott_5_title_box_y);
-	int travis_scott_5_title_x = (ofGetWindowWidth() * 0.75) - (travis_scott_5_title_text_box.getWidth() / 2);
-	int travis_scott_5_title_y = producers_title_font.getLineHeight() + 500;
-	travis_scott_5_title_font.drawStringAsShapes("5", travis_scott_5_title_x, travis_scott_5_title_y);
+	float producers_5_title_box_y = producers_title_font.getLineHeight() + 500;
+	ofRectangle producers_5_title_text_box = producers_5_title_font.getStringBoundingBox("5", 0, producers_5_title_box_y);
+	int producers_5_title_x = (ofGetWindowWidth() * 0.75) - (producers_5_title_text_box.getWidth() / 2);
+	int producers_5_title_y = producers_title_font.getLineHeight() + 500;
+	producers_5_title_font.drawStringAsShapes("5", producers_5_title_x, producers_5_title_y);
+	
 }
 
