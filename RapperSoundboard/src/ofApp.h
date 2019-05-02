@@ -9,6 +9,7 @@
 
 class ofApp : public ofBaseApp{
 	
+	// Page states
 	enum Page {
 		HOME,
 		TRAVIS_SCOTT,
@@ -17,13 +18,16 @@ class ofApp : public ofBaseApp{
 		PRODUCERS
 	};
 
+	// Current page
 	Page current_page = HOME;
 
+	// Adlib groupings
 	TravisScott travis_scott;
 	Migos migos;
 	LilRappers lil_rappers;
 	Producers producers;
 
+	// Main page
 	MainPage main_page;
 
 

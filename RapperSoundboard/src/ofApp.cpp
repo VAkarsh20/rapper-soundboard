@@ -16,6 +16,7 @@ void ofApp::update(){
 //--------------------------------------------------------------
 void ofApp::draw(){
 	
+	// Determining what page to draw based on the current page
 	if (current_page == HOME) {
 		main_page.DrawMainPage();
 	}
@@ -37,6 +38,7 @@ void ofApp::draw(){
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
 	
+	// Determining what keys are available based on the current page
 	if (current_page == HOME) {
 		if (key == '1') {
 			current_page = TRAVIS_SCOTT;

@@ -1,9 +1,13 @@
 #include "MainPage.h"
 
 
-
+/*
+	Loads all the fonts, sets the size, and sets the properties for all the font fields on this page
+*/
 MainPage::MainPage()
 {
+	
+	// Loading title fonts
 	main_title_font.load("Righteous-Regular.ttf", 50, true, true, true);
 	main_subheader_font.load("Righteous-Regular.ttf", 20, true, true, true);
 	main_travis_scott_font.load("Righteous-Regular.ttf", 20, true, true, true);
@@ -11,19 +15,28 @@ MainPage::MainPage()
 	main_lil_rappers_font.load("Righteous-Regular.ttf", 20, true, true, true);
 	main_producers_font.load("Righteous-Regular.ttf", 20, true, true, true);
 
+	// Loading number key fonts
 	main_1_font.load("Righteous-Regular.ttf", 20, true, true, true);
 	main_2_font.load("Righteous-Regular.ttf", 20, true, true, true);
 	main_3_font.load("Righteous-Regular.ttf", 20, true, true, true);
 	main_4_font.load("Righteous-Regular.ttf", 20, true, true, true);
+
 }
 
-
+/*
+	Destructor for this page
+*/
 MainPage::~MainPage()
 {
 }
 
+/*
+	Draws the main page for the application when called
+*/
 void MainPage::DrawMainPage() {
 	
+	// Drawing title fonts
+
 	// Main Title
 	float main_title_box_y = main_title_font.getLineHeight();
 	ofRectangle main_title_text_box = main_title_font.getStringBoundingBox("Rapper Adlib Soundboard", 0, main_title_box_y);
@@ -67,18 +80,26 @@ void MainPage::DrawMainPage() {
 	main_producers_font.drawStringAsShapes("Producers", main_producers_x, main_producers_y);
 
 
-	// Images
+	// Drawing Images
+
+	// Travis Scott Image
 	ofImage travis_scott_image = travis_scott.GetTravisScottImage();
 	travis_scott_image.draw((ofGetWindowWidth() * 0.125) - (travis_scott_image.getWidth() / 2), main_title_font.getLineHeight() + 200);
 
+	// Migos Image
 	ofImage migos_image = migos.GetMigosImage();
 	migos_image.draw((ofGetWindowWidth() * 0.375) - (migos_image.getWidth() / 2), main_title_font.getLineHeight() + 200);
 
+	// Lil Rappers Image
 	ofImage lil_rappers_image = lil_rappers.GetLilUziVertImage();
 	lil_rappers_image.draw((ofGetWindowWidth() * 0.625) - (lil_rappers_image.getWidth() / 2), main_title_font.getLineHeight() + 200);
 
+	// Producers Image
 	ofImage producers_image = producers.GetProducersImage();
 	producers_image.draw((ofGetWindowWidth() * 0.875) - (producers_image.getWidth() / 2), main_title_font.getLineHeight() + 200);
+
+
+	// Drawing key fonts
 
 	// Main 1 Header
 	float main_1_box_y = main_title_font.getLineHeight() + 500;
@@ -94,15 +115,18 @@ void MainPage::DrawMainPage() {
 	int main_2_y = main_title_font.getLineHeight() + 500;
 	main_2_font.drawStringAsShapes("2", main_2_x, main_2_y);
 
+	// Main 3 Header
 	float main_3_box_y = main_title_font.getLineHeight() + 500;
 	ofRectangle main_3_text_box = main_3_font.getStringBoundingBox("3", 0, main_3_box_y);
 	int main_3_x = (ofGetWindowWidth() * 0.625) - (main_3_text_box.getWidth() / 2);
 	int main_3_y = main_title_font.getLineHeight() + 500;
 	main_3_font.drawStringAsShapes("3", main_3_x, main_3_y);
 
+	// Main 4 Header
 	float main_4_box_y = main_4_font.getLineHeight() + 500;
 	ofRectangle main_4_text_box = main_4_font.getStringBoundingBox("4", 0, main_4_box_y);
 	int main_4_x = (ofGetWindowWidth() * 0.875) - (main_4_text_box.getWidth() / 2);
 	int main_4_y = main_title_font.getLineHeight() + 500;
 	main_4_font.drawStringAsShapes("4", main_4_x, main_4_y);
+
 }
