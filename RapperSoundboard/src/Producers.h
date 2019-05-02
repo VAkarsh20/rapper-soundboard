@@ -26,6 +26,11 @@ class Producers
 	ofTrueTypeFont producers_4_title_font;
 	ofTrueTypeFont producers_5_title_font;
 
+	ofTrueTypeFont producers_clear_title_font;
+	ofTrueTypeFont producers_0_title_font;
+	ofTrueTypeFont producers_back_title_font;
+	ofTrueTypeFont producers_b_title_font;
+
 public:
 	Producers();
 	~Producers();

@@ -25,6 +25,10 @@ class TravisScott {
 	ofTrueTypeFont travis_scott_4_title_font;
 	ofTrueTypeFont travis_scott_5_title_font;
 
+	ofTrueTypeFont travis_scott_clear_title_font;
+	ofTrueTypeFont travis_scott_0_title_font;
+	ofTrueTypeFont travis_scott_back_title_font;
+	ofTrueTypeFont travis_scott_b_title_font;
 
 public:
 

@@ -40,6 +40,11 @@ class LilRappers {
 	ofTrueTypeFont lil_rappers_8_title_font;
 	ofTrueTypeFont lil_rappers_9_title_font;
 
+	ofTrueTypeFont lil_rappers_clear_title_font;
+	ofTrueTypeFont lil_rappers_0_title_font;
+	ofTrueTypeFont lil_rappers_back_title_font;
+	ofTrueTypeFont lil_rappers_b_title_font;
+
 public:
 	LilRappers();
 	~LilRappers();

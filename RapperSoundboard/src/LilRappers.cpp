@@ -41,6 +41,11 @@ LilRappers::LilRappers() {
 	lil_rappers_8_title_font.load("Righteous-Regular.ttf", 20, true, true, true);
 	lil_rappers_9_title_font.load("Righteous-Regular.ttf", 20, true, true, true);
 
+	lil_rappers_clear_title_font.load("Righteous-Regular.ttf", 20, true, true, true);
+	lil_rappers_0_title_font.load("Righteous-Regular.ttf", 20, true, true, true);
+	lil_rappers_back_title_font.load("Righteous-Regular.ttf", 20, true, true, true);
+	lil_rappers_b_title_font.load("Righteous-Regular.ttf", 20, true, true, true);
+
 }
 LilRappers::~LilRappers() {
 
@@ -90,10 +95,10 @@ void LilRappers::DrawLilRappersPage() {
 
 	// Main Subheader
 	float lil_rappers_subheader_box_y = lil_rappers_title_font.getLineHeight() + 50;
-	ofRectangle lil_rappers_subheader_text_box = lil_rappers_subheader_font.getStringBoundingBox("Press the Number Key of the Adlib you want to Use", 0, lil_rappers_subheader_box_y);
+	ofRectangle lil_rappers_subheader_text_box = lil_rappers_subheader_font.getStringBoundingBox("Press the Key of the Adlib or Action you want to Use", 0, lil_rappers_subheader_box_y);
 	int lil_rappers_subheader_x = (ofGetWindowWidth() / 2) - (lil_rappers_subheader_text_box.getWidth() / 2);
 	int lil_rappers_subheader_y = lil_rappers_title_font.getLineHeight() + 50;
-	lil_rappers_subheader_font.drawStringAsShapes("Press the Number Key of the Adlib you want to Use", lil_rappers_subheader_x, lil_rappers_subheader_y);
+	lil_rappers_subheader_font.drawStringAsShapes("Press the Key of the Adlib or Action you want to Use", lil_rappers_subheader_x, lil_rappers_subheader_y);
 
 
 	lil_rappers_lil_jon_image.draw((ofGetWindowWidth() * 0.25) - (lil_rappers_lil_jon_image.getWidth() / 2), lil_rappers_title_font.getLineHeight() + 80);
@@ -208,6 +213,31 @@ void LilRappers::DrawLilRappersPage() {
 	int lil_rappers_9_title_x = (ofGetWindowWidth() * 0.75) - (lil_rappers_8_title_text_box.getWidth() / 2);
 	int lil_rappers_9_title_y = lil_rappers_title_font.getLineHeight() + 600;
 	lil_rappers_9_title_font.drawStringAsShapes("9", lil_rappers_9_title_x, lil_rappers_9_title_y);
+
+
+	float lil_rappers_clear_title_box_y = lil_rappers_title_font.getLineHeight() + 450;
+	ofRectangle lil_rappers_clear_title_text_box = lil_rappers_clear_title_font.getStringBoundingBox("Clear", 0, lil_rappers_clear_title_box_y);
+	int lil_rappers_clear_title_x = (ofGetWindowWidth() * 0.9) - (lil_rappers_clear_title_text_box.getWidth() / 2);
+	int lil_rappers_clear_title_y = lil_rappers_title_font.getLineHeight() + 450;
+	lil_rappers_clear_title_font.drawStringAsShapes("Clear", lil_rappers_clear_title_x, lil_rappers_clear_title_y);
+
+	float lil_rappers_0_title_box_y = lil_rappers_title_font.getLineHeight() + 500;
+	ofRectangle lil_rappers_0_title_text_box = lil_rappers_0_title_font.getStringBoundingBox("0", 0, lil_rappers_0_title_box_y);
+	int lil_rappers_0_title_x = (ofGetWindowWidth() * 0.9) - (lil_rappers_0_title_text_box.getWidth() / 2);
+	int lil_rappers_0_title_y = lil_rappers_title_font.getLineHeight() + 500;
+	lil_rappers_0_title_font.drawStringAsShapes("0", lil_rappers_0_title_x, lil_rappers_0_title_y);
+
+	float lil_rappers_back_title_box_y = lil_rappers_title_font.getLineHeight() + 550;
+	ofRectangle lil_rappers_back_title_text_box = lil_rappers_back_title_font.getStringBoundingBox("Back", 0, lil_rappers_back_title_box_y);
+	int lil_rappers_back_title_x = (ofGetWindowWidth() * 0.9) - (lil_rappers_back_title_text_box.getWidth() / 2);
+	int lil_rappers_back_title_y = lil_rappers_title_font.getLineHeight() + 550;
+	lil_rappers_back_title_font.drawStringAsShapes("Back", lil_rappers_back_title_x, lil_rappers_back_title_y);
+
+	float lil_rappers_b_title_box_y = lil_rappers_title_font.getLineHeight() + 600;
+	ofRectangle lil_rappers_b_title_text_box = lil_rappers_b_title_font.getStringBoundingBox("B", 0, lil_rappers_b_title_box_y);
+	int lil_rappers_b_title_x = (ofGetWindowWidth() * 0.9) - (lil_rappers_b_title_text_box.getWidth() / 2);
+	int lil_rappers_b_title_y = lil_rappers_title_font.getLineHeight() + 600;
+	lil_rappers_b_title_font.drawStringAsShapes("B", lil_rappers_b_title_x, lil_rappers_b_title_y);
 
 }
 

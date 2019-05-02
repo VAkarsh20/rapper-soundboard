@@ -25,6 +25,11 @@ Producers::Producers()
 	producers_3_title_font.load("Righteous-Regular.ttf", 20, true, true, true);
 	producers_4_title_font.load("Righteous-Regular.ttf", 20, true, true, true);
 	producers_5_title_font.load("Righteous-Regular.ttf", 20, true, true, true);
+
+	producers_clear_title_font.load("Righteous-Regular.ttf", 20, true, true, true);
+	producers_0_title_font.load("Righteous-Regular.ttf", 20, true, true, true);
+	producers_back_title_font.load("Righteous-Regular.ttf", 20, true, true, true);
+	producers_b_title_font.load("Righteous-Regular.ttf", 20, true, true, true);
 }
 
 
@@ -67,10 +72,10 @@ void Producers::DrawProducersPage() {
 
 	// Main Subheader
 	float producers_subheader_box_y = producers_title_font.getLineHeight() + 50;
-	ofRectangle producers_subheader_text_box = producers_subheader_font.getStringBoundingBox("Press the Number Key of the Producer Tag you want to Use", 0, producers_subheader_box_y);
+	ofRectangle producers_subheader_text_box = producers_subheader_font.getStringBoundingBox("Press the Key of the Adlib or Action you want to Use", 0, producers_subheader_box_y);
 	int producers_subheader_x = (ofGetWindowWidth() / 2) - (producers_subheader_text_box.getWidth() / 2);
 	int producers_subheader_y = producers_title_font.getLineHeight() + 50;
-	producers_subheader_font.drawStringAsShapes("Press the Number Key of the Producer Tag you want to Use", producers_subheader_x, producers_subheader_y);
+	producers_subheader_font.drawStringAsShapes("Press the Key of the Adlib or Action you want to Use", producers_subheader_x, producers_subheader_y);
 
 
 	producers_image.draw((ofGetWindowWidth() / 2) - (producers_image.getWidth() / 2), producers_title_font.getLineHeight() + 80);
@@ -137,5 +142,29 @@ void Producers::DrawProducersPage() {
 	int producers_5_title_y = producers_title_font.getLineHeight() + 500;
 	producers_5_title_font.drawStringAsShapes("5", producers_5_title_x, producers_5_title_y);
 	
+	
+	float producers_clear_title_box_y = producers_title_font.getLineHeight() + 450;
+	ofRectangle producers_clear_title_text_box = producers_clear_title_font.getStringBoundingBox("Clear", 0, producers_clear_title_box_y);
+	int producers_clear_title_x = (ofGetWindowWidth() * 0.9) - (producers_clear_title_text_box.getWidth() / 2);
+	int producers_clear_title_y = producers_title_font.getLineHeight() + 450;
+	producers_clear_title_font.drawStringAsShapes("Clear", producers_clear_title_x, producers_clear_title_y);
+
+	float producers_0_title_box_y = producers_title_font.getLineHeight() + 500;
+	ofRectangle producers_0_title_text_box = producers_0_title_font.getStringBoundingBox("0", 0, producers_0_title_box_y);
+	int producers_0_title_x = (ofGetWindowWidth() * 0.9) - (producers_0_title_text_box.getWidth() / 2);
+	int producers_0_title_y = producers_title_font.getLineHeight() + 500;
+	producers_0_title_font.drawStringAsShapes("0", producers_0_title_x, producers_0_title_y);
+
+	float producers_back_title_box_y = producers_title_font.getLineHeight() + 550;
+	ofRectangle producers_back_title_text_box = producers_back_title_font.getStringBoundingBox("Back", 0, producers_back_title_box_y);
+	int producers_back_title_x = (ofGetWindowWidth() * 0.9) - (producers_back_title_text_box.getWidth() / 2);
+	int producers_back_title_y = producers_title_font.getLineHeight() + 550;
+	producers_back_title_font.drawStringAsShapes("Back", producers_back_title_x, producers_back_title_y);
+
+	float producers_b_title_box_y = producers_title_font.getLineHeight() + 600;
+	ofRectangle producers_b_title_text_box = producers_b_title_font.getStringBoundingBox("B", 0, producers_b_title_box_y);
+	int producers_b_title_x = (ofGetWindowWidth() * 0.9) - (producers_b_title_text_box.getWidth() / 2);
+	int producers_b_title_y = producers_title_font.getLineHeight() + 600;
+	producers_b_title_font.drawStringAsShapes("B", producers_b_title_x, producers_b_title_y);
 }
 

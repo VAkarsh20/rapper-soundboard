@@ -23,6 +23,11 @@ TravisScott::TravisScott() {
 	travis_scott_3_title_font.load("Righteous-Regular.ttf", 20, true, true, true);
 	travis_scott_4_title_font.load("Righteous-Regular.ttf", 20, true, true, true);
 	travis_scott_5_title_font.load("Righteous-Regular.ttf", 20, true, true, true);
+
+	travis_scott_clear_title_font.load("Righteous-Regular.ttf", 20, true, true, true);
+	travis_scott_0_title_font.load("Righteous-Regular.ttf", 20, true, true, true);
+	travis_scott_back_title_font.load("Righteous-Regular.ttf", 20, true, true, true);
+	travis_scott_b_title_font.load("Righteous-Regular.ttf", 20, true, true, true);
 }
 
 TravisScott::~TravisScott() {
@@ -64,10 +69,10 @@ void TravisScott::DrawTravisScottPage() {
 
 	// Main Subheader
 	float travis_scott_subheader_box_y = travis_scott_title_font.getLineHeight() + 50;
-	ofRectangle travis_scott_subheader_text_box = travis_scott_subheader_font.getStringBoundingBox("Press the Number Key of the Adlib you want to Use", 0, travis_scott_subheader_box_y);
+	ofRectangle travis_scott_subheader_text_box = travis_scott_subheader_font.getStringBoundingBox("Press the Key of the Adlib or Action you want to Use", 0, travis_scott_subheader_box_y);
 	int travis_scott_subheader_x = (ofGetWindowWidth() / 2) - (travis_scott_subheader_text_box.getWidth() / 2);
 	int travis_scott_subheader_y = travis_scott_title_font.getLineHeight() + 50;
-	travis_scott_subheader_font.drawStringAsShapes("Press the Number Key of the Adlib you want to Use", travis_scott_subheader_x, travis_scott_subheader_y);
+	travis_scott_subheader_font.drawStringAsShapes("Press the Key of the Adlib or Action you want to Use", travis_scott_subheader_x, travis_scott_subheader_y);
 
 	travis_scott_image.draw((ofGetWindowWidth() / 2) - (travis_scott_image.getWidth() / 2), travis_scott_title_font.getLineHeight() + 80);
 	
@@ -132,4 +137,28 @@ void TravisScott::DrawTravisScottPage() {
 	int travis_scott_5_title_y = travis_scott_title_font.getLineHeight() + 500;
 	travis_scott_5_title_font.drawStringAsShapes("5", travis_scott_5_title_x, travis_scott_5_title_y);
 
+
+	float travis_scott_clear_title_box_y = travis_scott_title_font.getLineHeight() + 450;
+	ofRectangle travis_scott_clear_title_text_box = travis_scott_clear_title_font.getStringBoundingBox("Clear", 0, travis_scott_clear_title_box_y);
+	int travis_scott_clear_title_x = (ofGetWindowWidth() * 0.9) - (travis_scott_clear_title_text_box.getWidth() / 2);
+	int travis_scott_clear_title_y = travis_scott_title_font.getLineHeight() + 450;
+	travis_scott_clear_title_font.drawStringAsShapes("Clear", travis_scott_clear_title_x, travis_scott_clear_title_y);
+
+	float travis_scott_0_title_box_y = travis_scott_title_font.getLineHeight() + 500;
+	ofRectangle travis_scott_0_title_text_box = travis_scott_0_title_font.getStringBoundingBox("0", 0, travis_scott_0_title_box_y);
+	int travis_scott_0_title_x = (ofGetWindowWidth() * 0.9) - (travis_scott_0_title_text_box.getWidth() / 2);
+	int travis_scott_0_title_y = travis_scott_title_font.getLineHeight() + 500;
+	travis_scott_0_title_font.drawStringAsShapes("0", travis_scott_0_title_x, travis_scott_0_title_y);
+
+	float travis_scott_back_title_box_y = travis_scott_title_font.getLineHeight() + 550;
+	ofRectangle travis_scott_back_title_text_box = travis_scott_back_title_font.getStringBoundingBox("Back", 0, travis_scott_back_title_box_y);
+	int travis_scott_back_title_x = (ofGetWindowWidth() * 0.9) - (travis_scott_back_title_text_box.getWidth() / 2);
+	int travis_scott_back_title_y = travis_scott_title_font.getLineHeight() + 550;
+	travis_scott_back_title_font.drawStringAsShapes("Back", travis_scott_back_title_x, travis_scott_back_title_y);
+
+	float travis_scott_b_title_box_y = travis_scott_title_font.getLineHeight() + 600;
+	ofRectangle travis_scott_b_title_text_box = travis_scott_b_title_font.getStringBoundingBox("B", 0, travis_scott_b_title_box_y);
+	int travis_scott_b_title_x = (ofGetWindowWidth() * 0.9) - (travis_scott_b_title_text_box.getWidth() / 2);
+	int travis_scott_b_title_y = travis_scott_title_font.getLineHeight() + 600;
+	travis_scott_b_title_font.drawStringAsShapes("B", travis_scott_b_title_x, travis_scott_b_title_y);
 }
