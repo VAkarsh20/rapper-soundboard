@@ -60,3 +60,9 @@
 	* Made a MainPage and attributed the specific pages to their respective grouping class
 		* Drew the page once their page is called in the ofApp
 * Cleaned up some syntax and commenting issues
+## Week 4
+* Finished Implementing the Differnet Pages for the Adlib Groupings
+	* Added Text to all the pages to show what keys did what
+	* Had a part in the page that showed how to clear the sounds and how to go back to the main page
+* Cleaned up code and added documentation
+* Decieded there was no need for test code due to that fact there was no major backend implementation
