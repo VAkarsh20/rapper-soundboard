@@ -6,4 +6,4 @@ The application is built into 5 different pages: Main Page, Travis Scott Page, M
 Moreover, there are directions on the screen to show which keys the user can press to either play/stop sounds and naviagte through the pages.
 
 
-![Main Page]("Final_Project_Main_Page_Screenshot")
+![Main Page]("Final_Project_Main_Page_Screenshot.jpg")
